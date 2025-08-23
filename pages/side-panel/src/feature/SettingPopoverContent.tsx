@@ -99,8 +99,8 @@ export const SettingPopoverContent = ({ setIsOpen }: { setIsOpen: (isOpen: boole
         <SelectContent>
           <SelectItem value="gpt-4o-mini">GPT-4o-mini</SelectItem>
           <SelectItem value="gpt-4o">GPT-4o</SelectItem>
-          <SelectItem value="o1-mini">GPT-o1-mini</SelectItem>
-          <SelectItem value="o1">GPT-o1</SelectItem>
+          <SelectItem value="gpt-4.1-nano">GPT-4.1-nano</SelectItem>
+          <SelectItem value="gpt-4.1-mini">GPT-4.1-mini</SelectItem>
         </SelectContent>
       </Select>
       <div className="space-y-4 !mt-3">

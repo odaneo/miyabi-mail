@@ -20,7 +20,7 @@ exports[`HistoryArea 组件 > 应该在无历史记录时显示空状态 1`] = `
         style="min-width: 100%; display: table;"
       >
         <div
-          class="space-y-3"
+          class="space-y-3 max-w-[calc(100vw-42px)]"
         >
           <div
             animate="[object Object]"
