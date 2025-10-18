@@ -97,6 +97,8 @@ export const SettingPopoverContent = ({ setIsOpen }: { setIsOpen: (isOpen: boole
           <SelectValue placeholder="Select API Version" />
         </SelectTrigger>
         <SelectContent>
+          <SelectItem value="qwen3-max">Qwen3-Max</SelectItem>
+          <SelectItem value="qwen-plus">Qwen-Plus</SelectItem>
           <SelectItem value="gpt-4o-mini">GPT-4o-mini</SelectItem>
           <SelectItem value="gpt-4o">GPT-4o</SelectItem>
           <SelectItem value="gpt-4.1-nano">GPT-4.1-nano</SelectItem>

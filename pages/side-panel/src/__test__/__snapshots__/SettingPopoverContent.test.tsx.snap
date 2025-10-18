@@ -87,7 +87,7 @@ exports[`SettingPopoverContent Component > 应该正确渲染有 API key 的状�
     </div>
     <button
       aria-autocomplete="none"
-      aria-controls="radix-:r6:"
+      aria-controls="radix-:r8:"
       aria-expanded="false"
       class="flex h-9 items-center justify-between whitespace-nowrap rounded-md border border-input px-3 py-2 text-sm shadow-sm ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 w-full bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200"
       data-state="closed"

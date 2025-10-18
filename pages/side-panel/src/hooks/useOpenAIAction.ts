@@ -40,6 +40,7 @@ export const useOpenAIAction = (inputText: string) => {
         const client = new OpenAI({
           apiKey,
           dangerouslyAllowBrowser: true,
+          baseURL: 'https://miyabi.odaneo.workers.dev',
         });
         const resp = await client.chat.completions.create({
           messages: [{ role: 'user', content: prompt }],
